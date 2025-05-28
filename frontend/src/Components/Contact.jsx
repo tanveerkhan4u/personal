@@ -11,7 +11,7 @@ const Contact = () => {
     <div>
  <div className="p-4 lg:p-20 flex flex-col items-center justify-center "  id="Contact">
       <h1 data-aos="fade-left" className="text-[52px] font-semibold leading-normal uppercase text-[#638ed4] lg:p-10 ">Contact Us</h1>
-      <form  className="flex flex-col gap-2 lg:w-1/2" name='contact' action="/contact" method='post'  >
+      <form  className="flex flex-col gap-2 lg:w-1/2" name='contact'  >
 
       <input type="hidden" name="form-name" value="contact" />
         <div className="lg:flex gap-6 ">
